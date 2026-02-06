@@ -3,7 +3,7 @@
 ---
 
 ### Table of Contents
-- [1. Prepare all parts](#1-prepare-all-parts)
+- [1. Prepare all needed parts](#1-prepare-all-needed-parts)
 - [2. Assemble the acrylic frame](#2-assemble-the-acrylic-frame)
 - [3. Assemble the chiller](#3-assemble-the-chiller)
 - [4. Mount the micromanipulator](#4-mount-the-micromanipulator)
@@ -14,7 +14,7 @@
   
 ## Assembly Steps
 
-### 1 Prepare all parts
+### 1 Prepare all needed parts
 
 #### 1.1 Verify purchasable items
 - Confirm you have all **purchasable components** listed in the **Required Parts List (PPL)** table.
