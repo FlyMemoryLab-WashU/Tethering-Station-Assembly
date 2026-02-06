@@ -46,14 +46,15 @@ Before starting the assembly, make sure all parts and tools are ready.
 
 ---
 
-## 2. Acrylic Assembly
+## 2. Assemble the Main Acrylic Structure
 
-[cite_start]To assemble the main acrylic frame, please refer to the FreeCAD render in Figure 6 for guidance on how the parts fit together[cite: 1].
+1. Assemble the main structure using the acrylic parts, following the render in **Figure**.
+2. Fasten the acrylic pieces with **cyanoacrylate adhesive** (super glue), as shown in **Figure**.
 
-* [cite_start]Use `M3 20mm screws`, `M3 nuts`, and `M3 washers` to fasten the acrylic pieces together[cite: 1].
-* [cite_start]Attach the 4 rubber feet to the underside of the base plate, placing one at each corner[cite: 1].
+### Optional: Add Rubber Feet
+For a better grip between the baseplate and the table, attach **four rubber feet** under the baseplate—**one at each corner**.
 
-_Figure 6: Assembly Render_
+_Figure: Assembly Render_
 ![Placeholder for Figure 6](https://via.placeholder.com/400x300.png/cccccc/000000?Text=Figure+6+--+Assembly+Render)
 
 ---
