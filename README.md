@@ -3,14 +3,28 @@
 ---
 
 ### Table of Contents
-- [1. Prepare the needed parts for assemble](#1-laser-cut-acrylic-parts)
-- [2. Assemble the main acrylic structure](#2-acrylic-assembly)
-- [3. 3D Printed Parts](#3-3d-printed-parts)
-- [4. Chiller Assembly](#4-chiller-assembly)
-- [5. Micro-Manipulator Assembly](#5-micro-manipulator-assembly)
-- [6. Required Parts List](#6-required-parts-list)
+- [1. Prepare all parts](#1-prepare-all-parts)
+  - [1.1 Verify purchasable items (BOM)](#11-verify-purchasable-items-bom)
+  - [1.2 Prepare custom acrylic parts](#12-prepare-custom-acrylic-parts)
+  - [1.3 Tap threads in the baseplate](#13-tap-threads-in-the-baseplate)
+  - [1.4 Prepare 3D-printed parts](#14-prepare-3d-printed-parts)
+- [2. Assemble the acrylic frame](#2-assemble-the-acrylic-frame)
+  - [Optional: add rubber feet](#optional-add-rubber-feet)
+- [3. Assemble the chiller](#3-assemble-the-chiller)
+  - [3.1 Build the W1209 temperature controller](#31-build-the-w1209-temperature-controller)
+  - [3.2 Wire the temperature controller (recommended order)](#32-wire-the-temperature-controller-recommended-order)
+  - [3.3 Prepare and mount the aluminum T-bar](#33-prepare-and-mount-the-aluminum-t-bar)
+  - [3.4 Seat the chiller on the acrylic frame](#34-seat-the-chiller-on-the-acrylic-frame)
+- [4. Mount the micromanipulator](#4-mount-the-micromanipulator)
+- [5. Install the thread adapter and Mini-V clamp](#5-install-the-thread-adapter-and-mini-v-clamp)
+  - [Notes by clamp version](#notes-by-clamp-version)
+  - [3D-printed version (shown in Figure 1A)](#3d-printed-version-shown-in-figure-1a)
+  - [Thorlabs-parts version](#thorlabs-parts-version)
+- [6. Install the fly-holding rod and fly holder](#6-install-the-fly-holding-rod-and-fly-holder)
+- [7. Power on and set the chiller temperature](#7-power-on-and-set-the-chiller-temperature)
+  - [Recommended temperature setpoint](#recommended-temperature-setpoint)
+  - [How to set temperature on the W1209](#how-to-set-temperature-on-the-w1209)
 
-  
 ## Assembly Steps
 
 ### 1) Prepare all parts
