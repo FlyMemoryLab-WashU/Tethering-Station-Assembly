@@ -1,9 +1,9 @@
-# Instructions for building the inexpensive tethering stage
+# Instructions for building the inexpensive tethering station
 
 ---
 
 ### Table of Contents
-- [1. Laser-Cut Acrylic Parts](#1-laser-cut-acrylic-parts)
+- [1. Prepare the needed parts for assemble](#1-laser-cut-acrylic-parts)
 - [2. Acrylic Assembly](#2-acrylic-assembly)
 - [3. 3D Printed Parts](#3-3d-printed-parts)
 - [4. Chiller Assembly](#4-chiller-assembly)
@@ -11,19 +11,38 @@
 - [6. Required Parts List](#6-required-parts-list)
 
   
-## 1. Laser-Cut Acrylic Parts
+## 1. Prepare the needed parts for assemble
 
-![the main body of the tethering stage](https://github.com/user-attachments/assets/dc868de3-fde2-4627-a067-73d807487f21)
+Before starting the assembly, make sure all parts and tools are ready.
 
-you'll need to laser-cut several acrylic parts[cite: 1]. [cite_start]We recommend using either a local CO2 laser cutting service or an online platform like [Ponoko](https://www.ponoko.com).
+### 1) Gather purchasable parts (BOM)
+- Check that you have all items listed in the **Bill of Materials (BOM)** table.
+- If anything is missing, purchase it before proceeding.
 
-* **Pay close attention to material thickness.** The design files are separated for three different acrylic sheet thicknesses. [cite_start]Ensure you use the correct file for each thickness[cite: 1].
-    * [cite_start]The required thicknesses are **6mm** (1/4"), **3mm** (1/8"), and **1.5mm** (1/16")[cite: 1].
-* **Set the laser cutter to cut only.** All paths in the design files are intended for cutting. [cite_start]Do not use engrave or fill settings[cite: 1].
-* [cite_start]Refer to Figures 3, 4, and 5 for the part designs[cite: 1].
+### 2) Prepare custom acrylic parts
+- Obtain the custom acrylic-sheet parts by either:
+  - laser-cutting the acrylic sheets yourself, or
+  - ordering laser-cut parts from a service (e.g., Ponoko).
+- **Confirm acrylic thickness before cutting/ordering.** The SVG filenames indicate the required thickness:
+  - **1.5 mm (1/16")**
+  - **6 mm (1/4")**
+- **Cut paths only:** all paths in the SVG files are intended to be **cut**, not engraved.
 
-_See Figures 3, 4, and 5 for part layouts._
-![Placeholder for Figures 3, 4, 5](https://via.placeholder.com/600x200.png/cccccc/000000?Text=Figures+3,+4,+5+--+Laser-Cut+Part+Layouts)
+### 3) Tap threads in the baseplate
+- Tap **M3 threads** into the baseplate at the holes used to mount the micromanipulator.
+
+### 4) Prepare 3D-printed parts
+- Obtain the 3D-printed parts by either:
+  - printing them yourself, or
+  - ordering prints from a service (e.g., Craftcloud).
+- Recommended filament:
+  - **PLA** (works well for most uses)
+  - **ASA** (recommended if you need improved UV resistance)
+- Suggested print settings:
+  - **0.2 mm layer height**
+  - **No supports**
+- **Mini-V clamp:** insert **M3 nuts** into both slots.
+
 
 ---
 
