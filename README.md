@@ -10,14 +10,14 @@
 - [5. Install the thread adapter and Mini-V clamp](#5-install-the-thread-adapter-and-mini-v-clamp)
 - [6. Install the fly-holding rod and fly holder](#6-install-the-fly-holding-rod-and-fly-holder)
 - [7. Power on and set the chiller temperature](#7-power-on-and-set-the-chiller-temperature)
-- [8. Required Parts List](#8-required-parts-list)
+- [8. Required parts list](#8-required-parts-list)
   
 ## Assembly Steps
 
 ### 1 Prepare all parts
 
-#### 1.1 Verify purchasable items (BOM)
-- Confirm you have all **purchasable components** listed in the **Bill of Materials (BOM)** table.
+#### 1.1 Verify purchasable items
+- Confirm you have all **purchasable components** listed in the **Required Parts List (PPL)** table.
 - Purchase any missing items before starting the build.
 
 #### 1.2 Prepare custom acrylic parts
@@ -131,7 +131,7 @@ c. Attach the **Mini-V clamp** above the thread adapter.
 
 **Thorlabs-parts version**
 - You may need **M3 standoffs** to reach the height of the aluminum T-bar apex.
-- This was not tested; an M3 standoff kit is included in the BOM as an option.
+- This was not tested; an M3 standoff kit is included in the PPL as an option.
 
 ---
 
@@ -161,7 +161,7 @@ b. Use **+** and **−** to adjust the set temperature.
 c. Wait briefly for the value to be accepted (flashing stops).
 
 
-## 8 Required Parts List
+## 8 Required parts list
 
 | Name | Quantity | Description | Notes | Link |
 |---|---:|---|---|---|
