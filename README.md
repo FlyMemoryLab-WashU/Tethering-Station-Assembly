@@ -163,12 +163,76 @@ c. Wait briefly for the value to be accepted (flashing stops).
 
 ## 8 Required Parts List
 
-| Part Name | SKU / Part Number | Quantity | Notes | Link | Description |
-| :--- | :--- | :---: | :--- | :--- | :--- |
-| **Arduino Uno R3** | `A000066` | 1 | The main microcontroller. |
-| **DHT22 Sensor** | `AM2302` | 1 | For temperature and humidity. |
-| **M3 Screws** | `HW-102` | 8 | `12mm` length. |
+| Name | Quantity | Description | Notes | Link |
+|---|---:|---|---|---|
+| Tap Wrench Tool Set | 1 | Mesee 6 Pcs Tap Wrench Tool Set, Adjustable T-Handle Tap Holder Wrench with Metric Plug Taps (M3–M8) |  | https://a.co/d/hpTYyof |
+| Super Glue | 1 | Loctite Super Glue Professional Liquid, 20 g |  | https://a.co/d/eSluuwc |
+| Temperature Controller | 1 | HiLetgo W1209 (12V) Digital Temperature Controller (with case) |  | https://a.co/d/bQPwmGg |
+| WAGO Lever Splice | 5 | Push-in butt splice connector, 12–24 AWG, transparent/orange |  | https://www.digikey.com/short/qq5hc085 |
+| Black Wire | 1 | 22 AWG hook-up wire, black, 25 ft (7.62 m) |  | https://www.digikey.com/short/qm3t1whb |
+| Red Wire | 1 | 22 AWG hook-up wire, red, 25 ft (7.62 m) |  | https://www.digikey.com/short/whnmh5cv |
+| Rocker Switch | 1 | Rocker switch, SPST, 20A (AC) 125V, panel mount, snap-in |  | https://www.digikey.com/short/8pzjtrjv |
+| Thermal Tape | 1 | Double-sided thermal adhesive tape, 25 m × 10 mm × 0.20 mm |  | https://a.co/d/jgPTIG2 |
+| Thermal Paste | 1 | Thermal silicone compound, 1 g syringe |  | https://www.digikey.com/short/015wb8zm |
+| Cooler | 1 | Direct-to-air thermoelectric assembly |  | https://www.digikey.com/short/zvf0w91p |
+| Power Supply | 1 | 12V 8A (96W) AC/DC power adapter |  | https://a.co/d/hwq6SQs |
+| Micro-Manipulator | 1 | XYZ axis manual precision linear stage (40 × 40 mm) |  | https://a.co/d/8RHpoLn |
+| Bumper Feet | 4 | Square tapered bumper feet (polyurethane) | Optional; example part | https://www.digikey.com/short/tmd9vchq |
+| Aluminum T-Bar | 1 | 6061 aluminum T-bar, 1/2" high × 1" wide, 1/8" wall | Buy 2 ft; cut a 40 mm section (bandsaw) | https://www.mcmaster.com/1668T72-1668T722/ |
+| Plate-Holding Rod (Thorlabs option) | 1 | ER90C - 90° "T" Extension | Or 3D print | https://www.thorlabs.com/thorproduct.cfm?partnumber=ER90C |
+| Cage Rod (for plate-holding rod) | 1 | ER2 - Cage Assembly Rod, 2" long, Ø6 mm | Used with ER90C | https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2 |
+| Electrical Tape (McMaster) | 1 | Electrical tape, 3/4" wide, 60 ft, black |  | https://www.mcmaster.com/7619A11/ |
+| Electrical Tape (DigiKey) | 1 | Electrical tape, PSA adhesive, black, 3/4" × 60' | Alternative source | https://www.digikey.com/short/hzwqm2b5 |
+| PTFE Seal Tape | 1 | PTFE thread seal tape (plumber’s tape), 1/2" × 520" |  | https://a.co/d/2TIa52S |
 
-* [cite_start]Fasten the linear stage to the 3D printed adapter piece using `M3 8mm screws` and `M3 nuts`[cite: 1].
-* [cite_start]Fasten the 3D printed adapter to the **6mm-thick** baseplate using `M6 12mm screws` and `M6 nuts`[cite: 1].
-* On the thread adapter, wrap one layer of electrical tape around the thread. [cite_start]This provides resistance and prevents unwanted rotation[cite: 1].
+---
+
+## Clamp Options
+
+### Option A: Imperial (8-32)
+
+| Name | Quantity | Description | Notes | Link |
+|---|---:|---|---|---|
+| Thumb Screw | 1 | #8-32 hex head thumb screw, hex drive, nylon |  | https://www.digikey.com/short/10z84wm7 |
+| Thread Adapter | 1 | Male hex thread adapter, 8-32 to M3 × 0.5 |  | https://www.mcmaster.com/91091A527/ |
+| Clamp | 1 | VH1 - Miniature V-Clamp, 0.42" long, 8-32 tapped |  | https://www.thorlabs.com/thorproduct.cfm?partnumber=VH1 |
+| M3 Standoff Kit | 1 | M3 standoff assortment kit | Optional height tuning | https://a.co/d/eljB6fC |
+
+### Option B: Metric (M4)
+
+| Name | Quantity | Description | Notes | Link |
+|---|---:|---|---|---|
+| Thumb Screw | 1 | #8-32 hex head thumb screw, hex drive, nylon | Listed as provided; adjust if you prefer a true metric thumb screw | https://www.digikey.com/short/10z84wm7 |
+| Thread Adapter | 1 | Male hex thread adapter, M3 × 0.5 to M4 × 0.7 |  | https://www.mcmaster.com/93047A106/ |
+| Clamp | 1 | VH1/M - Miniature V-Clamp, 0.42" long, M4 tapped |  | https://www.thorlabs.com/thorproduct.cfm?partnumber=VH1/M |
+| M3 Standoff Kit | 1 | M3 standoff assortment kit | Optional height tuning | https://a.co/d/eljB6fC |
+
+### Option C: Metric (3D-printed clamp)
+
+| Name | Quantity | Description | Notes | Link |
+|---|---:|---|---|---|
+| Thumb Screw | 1 | Knurled thumb screws, M3 × 20 |  | https://a.co/d/elruBuP |
+| Thread Adapter | 1 | M3 × 36 threaded rod | Fabricate per procedure (e.g., cut down an M3 × 40) |  |
+
+---
+
+## Fasteners
+
+| Name | Quantity | Description | Notes | Link |
+|---|---:|---|---|---|
+| Screws (M3 × 12 mm) | 1 | 316 stainless button head hex drive screws, M3 × 0.5, 12 mm |  | https://www.mcmaster.com/94500A264/ |
+| Nuts (M3) | 1 | Zinc-plated steel hex nut, M3 × 0.5 |  | https://www.mcmaster.com/90591A121/ |
+| Washers (M3) | 1 | 18-8 stainless washer for M3 (3.2 mm ID, 7 mm OD) |  | https://www.mcmaster.com/93475A210/ |
+| M3 Fastener Kit | 1 | M3 screw/nut/washer assortment kit | Alternative to individual parts | https://a.co/d/aGirgUi |
+| Screw (#2-56) | 1 | #2-56 pan head slotted drive nylon screw | For acrylic fly holder fastening | https://www.digikey.com/short/0jq8jp8r |
+| Nut (#2-56) | 1 | #2-56 hex nut, nylon | For acrylic fly holder fastening | https://www.digikey.com/short/2qt794vw |
+
+---
+
+## Acrylic Sheets (if cutting in-house with a CO₂ laser)
+
+| Name | Quantity | Description | Notes | Link |
+|---|---:|---|---|---|
+| Acrylic sheet (1/16", 1.5 mm) | 1 | Clear scratch- and UV-resistant acrylic sheet, 12" × 12" × 1/16" | For 1.5 mm SVG parts | https://www.mcmaster.com/8589K11/ |
+| Acrylic sheet (1/4", 6 mm) | 1 | Clear scratch- and UV-resistant acrylic sheet, 12" × 12" × 1/4" | For 6 mm SVG parts | https://www.mcmaster.com/8589K81/ |
+
