@@ -4,7 +4,7 @@
 
 ### Table of Contents
 - [1. Prepare the needed parts for assemble](#1-laser-cut-acrylic-parts)
-- [2. Acrylic Assembly](#2-acrylic-assembly)
+- [2. Assemble the main acrylic structure](#2-acrylic-assembly)
 - [3. 3D Printed Parts](#3-3d-printed-parts)
 - [4. Chiller Assembly](#4-chiller-assembly)
 - [5. Micro-Manipulator Assembly](#5-micro-manipulator-assembly)
@@ -46,7 +46,7 @@ Before starting the assembly, make sure all parts and tools are ready.
 
 ---
 
-## 2. Assemble the Main Acrylic Structure
+## 2. Assemble the main acrylic structure
 
 1. Assemble the main structure using the acrylic parts, following the render in **Figure**.
 2. Fasten the acrylic pieces with **cyanoacrylate adhesive** (super glue), as shown in **Figure**.
