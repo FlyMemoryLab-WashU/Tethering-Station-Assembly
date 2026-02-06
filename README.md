@@ -4,30 +4,17 @@
 
 ### Table of Contents
 - [1. Prepare all parts](#1-prepare-all-parts)
-  - [1.1 Verify purchasable items (BOM)](#11-verify-purchasable-items-bom)
-  - [1.2 Prepare custom acrylic parts](#12-prepare-custom-acrylic-parts)
-  - [1.3 Tap threads in the baseplate](#13-tap-threads-in-the-baseplate)
-  - [1.4 Prepare 3D-printed parts](#14-prepare-3d-printed-parts)
 - [2. Assemble the acrylic frame](#2-assemble-the-acrylic-frame)
-  - [Optional: add rubber feet](#optional-add-rubber-feet)
 - [3. Assemble the chiller](#3-assemble-the-chiller)
-  - [3.1 Build the W1209 temperature controller](#31-build-the-w1209-temperature-controller)
-  - [3.2 Wire the temperature controller (recommended order)](#32-wire-the-temperature-controller-recommended-order)
-  - [3.3 Prepare and mount the aluminum T-bar](#33-prepare-and-mount-the-aluminum-t-bar)
-  - [3.4 Seat the chiller on the acrylic frame](#34-seat-the-chiller-on-the-acrylic-frame)
 - [4. Mount the micromanipulator](#4-mount-the-micromanipulator)
 - [5. Install the thread adapter and Mini-V clamp](#5-install-the-thread-adapter-and-mini-v-clamp)
-  - [Notes by clamp version](#notes-by-clamp-version)
-  - [3D-printed version (shown in Figure 1A)](#3d-printed-version-shown-in-figure-1a)
-  - [Thorlabs-parts version](#thorlabs-parts-version)
 - [6. Install the fly-holding rod and fly holder](#6-install-the-fly-holding-rod-and-fly-holder)
 - [7. Power on and set the chiller temperature](#7-power-on-and-set-the-chiller-temperature)
-  - [Recommended temperature setpoint](#recommended-temperature-setpoint)
-  - [How to set temperature on the W1209](#how-to-set-temperature-on-the-w1209)
-
+- [8. Required Parts List](#8-required-parts-list)
+  
 ## Assembly Steps
 
-### 1) Prepare all parts
+### 1 Prepare all parts
 
 #### 1.1 Verify purchasable items (BOM)
 - Confirm you have all **purchasable components** listed in the **Bill of Materials (BOM)** table.
@@ -59,7 +46,7 @@
 
 ---
 
-### 2) Assemble the acrylic frame
+### 2 Assemble the acrylic frame
 - Assemble the main structure using the acrylic parts, following the render in **Figure 5**.
 - Fasten all acrylic joints with **cyanoacrylate adhesive** (super glue), as shown in **Figure 5**.
 
@@ -68,7 +55,7 @@ For better grip between the baseplate and the table, attach **four rubber feet**
 
 ---
 
-### 3) Assemble the chiller
+### 3 Assemble the chiller
 
 #### 3.1 Build the W1209 temperature controller
 - Assemble the **W1209 temperature controller**.
@@ -90,11 +77,11 @@ Prepare:
 - **rocker switch**
 
 Wire as follows:
-1. Use the **3" red wire** to connect terminals **K1 → 12V** on the W1209.
-2. Connect one end of the **10" black wire** to **GND** on the W1209.
-3. Connect the other end of the **10" black wire** to the **negative (−)** terminal of the **female barrel connector**.
-4. Connect the **black wire** of the **rocker switch** to **12V** on the W1209.
-5. Connect the **red wire** of the **rocker switch** to the **positive (+)** terminal of the **female barrel connector**.
+a. Use the **3" red wire** to connect terminals **K1 → 12V** on the W1209.
+b. Connect one end of the **10" black wire** to **GND** on the W1209.
+c. Connect the other end of the **10" black wire** to the **negative (−)** terminal of the **female barrel connector**.
+d. Connect the **black wire** of the **rocker switch** to **12V** on the W1209.
+e. Connect the **red wire** of the **rocker switch** to the **positive (+)** terminal of the **female barrel connector**.
 
 **Chiller load wiring (Peltier + fan assembly):**
 - **Red wires → K0**
@@ -103,13 +90,13 @@ Wire as follows:
 You can wire the chiller load either **now** or **after** mounting the chiller to the acrylic structure.
 
 #### 3.3 Prepare and mount the aluminum T-bar
-1. Cut a **40 mm** section of the **aluminum T-bar** (a bandsaw works well).
-2. Apply **thermal paste** to the bottom face of the T-bar (orientation as in **Figure 1A**).
-3. Place the **NTC temperature probe** so it touches **both**:
+a. Cut a **40 mm** section of the **aluminum T-bar** (a bandsaw works well).
+b. Apply **thermal paste** to the bottom face of the T-bar (orientation as in **Figure 1A**).
+c. Place the **NTC temperature probe** so it touches **both**:
    - the rim of the T-bar, and
    - the cold plate  
    Add thermal paste to thermally couple the probe to both surfaces.
-4. Secure the T-bar using **thermal tape** (use **4 × 10 mm** strips) as shown in **Figure 1A**.
+d. Secure the T-bar using **thermal tape** (use **4 × 10 mm** strips) as shown in **Figure 1A**.
    - You do **not** need to remove the blue liner from the tape after applying it.
 
 #### 3.4 Seat the chiller on the acrylic frame
@@ -118,20 +105,20 @@ You can wire the chiller load either **now** or **after** mounting the chiller t
 
 ---
 
-### 4) Mount the micromanipulator
-1. Place the micromanipulator on the acrylic baseplate **with the 6 mm raising platform underneath**.
-2. To access the screw mounts:
+### 4 Mount the micromanipulator
+a. Place the micromanipulator on the acrylic baseplate **with the 6 mm raising platform underneath**.
+b. To access the screw mounts:
    - Slide the lowest platform to an **edge position** to expose the screw holes on the opposite side.
-3. Insert **M3 × 12** screws and fasten the micromanipulator into the baseplate.
-4. Move the platform to the other edge position and repeat to install the remaining screws.
+c. Insert **M3 × 12** screws and fasten the micromanipulator into the baseplate.
+d. Move the platform to the other edge position and repeat to install the remaining screws.
 
 ---
 
-### 5) Install the thread adapter and Mini-V clamp
+### 5 Install the thread adapter and Mini-V clamp
 
-1. Screw your chosen **thread adapter** into the top surface of the micromanipulator.
-2. Wrap **one layer** of **PTFE (thread seal) tape** or **electrical tape** around the exposed threads to add friction (prevents the clamp from rotating freely).
-3. Attach the **Mini-V clamp** above the thread adapter.
+a. Screw your chosen **thread adapter** into the top surface of the micromanipulator.
+b. Wrap **one layer** of **PTFE (thread seal) tape** or **electrical tape** around the exposed threads to add friction (prevents the clamp from rotating freely).
+c. Attach the **Mini-V clamp** above the thread adapter.
 
 #### Notes by clamp version
 
@@ -139,8 +126,8 @@ You can wire the chiller load either **now** or **after** mounting the chiller t
 - The “thread adapter” is an **M3 × 36** threaded rod.
   - We made this by cutting an **M3 × 40** screw down to **36 mm** using a rotary tool + cutoff wheel (other methods are fine).
 - Fasten the rod by:
-  1. threading it into the micromanipulator platform hole closest to the T-bar, then
-  2. adding a **washer + nut** to lock it in place.
+  a. threading it into the micromanipulator platform hole closest to the T-bar, then
+  b. adding a **washer + nut** to lock it in place.
 
 **Thorlabs-parts version**
 - You may need **M3 standoffs** to reach the height of the aluminum T-bar apex.
@@ -148,20 +135,20 @@ You can wire the chiller load either **now** or **after** mounting the chiller t
 
 ---
 
-### 6) Install the fly-holding rod and fly holder
-1. Insert the appropriate **thumb screw** into the top of the Mini-V clamp (type depends on your clamp choice).
-2. Insert the **fly-holding rod** (Thorlabs or 3D-printed) into the Mini-V clamp and secure it with the thumb screw.
-3. Attach the acrylic fly holder to the rod using one of the following:
+### 6 Install the fly-holding rod and fly holder
+a. Insert the appropriate **thumb screw** into the top of the Mini-V clamp (type depends on your clamp choice).
+b. Insert the **fly-holding rod** (Thorlabs or 3D-printed) into the Mini-V clamp and secure it with the thumb screw.
+c. Attach the acrylic fly holder to the rod using one of the following:
    - **M2.5 screw + nut**, or
    - **#2-56 screw + nut**
-4. Use the small hole at one end of the fly-holding rod for the fly holder fastener.
+d. Use the small hole at one end of the fly-holding rod for the fly holder fastener.
 
 ---
 
-### 7) Power on and set the chiller temperature
+### 7 Power on and set the chiller temperature
 
-1. Plug the **12 V power supply** into the **female barrel connector**.
-2. Turn on the **rocker switch** when you are ready to cool.
+a. Plug the **12 V power supply** into the **female barrel connector**.
+b. Turn on the **rocker switch** when you are ready to cool.
 
 #### Recommended temperature setpoint
 - Target: keep the **cold plate ~0 °C**.
@@ -169,12 +156,12 @@ You can wire the chiller load either **now** or **after** mounting the chiller t
 - Using an IR camera, we found that setting the controller to **+10 °C** produced the desired cold-plate temperature (~0 °C).
 
 #### How to set the temperature on the W1209
-1. **Click** (do not long-press) the **SET** button until the display flashes.
-2. Use **+** and **−** to adjust the set temperature.
-3. Wait briefly for the value to be accepted (flashing stops).
+a. **Click** (do not long-press) the **SET** button until the display flashes.
+b. Use **+** and **−** to adjust the set temperature.
+c. Wait briefly for the value to be accepted (flashing stops).
 
 
-## 6. Required Parts List
+## 8 Required Parts List
 
 | Part Name | SKU / Part Number | Quantity | Notes | Link | Description |
 | :--- | :--- | :---: | :--- | :--- | :--- |
