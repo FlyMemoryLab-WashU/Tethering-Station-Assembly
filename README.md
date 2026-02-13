@@ -1,5 +1,5 @@
 # Instructions for building the inexpensive tethering station
-![Figure 1](Figure%1.png)
+![Figure 1](Figure 1.png)
 ---
 
 ### Table of Contents
