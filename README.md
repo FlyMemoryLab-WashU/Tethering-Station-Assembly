@@ -1,7 +1,17 @@
 # Instructions for building the inexpensive tethering station
 ---
-<img width="483" height="445" alt="Figure 1" src="https://github.com/user-attachments/assets/d91770e0-0f53-46a8-992f-4401d05d4d97" />
-- **Figure 1**: Fly tethering station.
+<div align="center">
+  <img
+    width="483"
+    height="445"
+    alt="Figure 1"
+    src="https://github.com/user-attachments/assets/d91770e0-0f53-46a8-992f-4401d05d4d97"
+  />
+    <p><strong>Figure 1:</strong> Fly tethering station.</p>
+</div>
+
+
+
 ### Table of Contents
 - [1. Prepare all needed parts](#1-prepare-all-needed-parts)
 - [2. Assemble the acrylic frame](#2-assemble-the-acrylic-frame)
@@ -21,51 +31,57 @@
 - Purchase any missing items before starting the build.
 
 #### 1.2 Prepare custom acrylic parts
-- We need to prepare for:
-  - Acrylic fly holder.
-  <img width="289" height="376" alt="Figure 2" src="https://github.com/user-attachments/assets/bc54cf4e-6676-4bef-9208-de54c92412dd" />
-  - **Figure 2:** Acrylic fly mount, 1.5mm (1/16”) thickness.
-  - Acrylic assembly for the mounting station.
-  <img width="1004" height="773" alt="Figure 3" src="https://github.com/user-attachments/assets/654cf831-6301-422c-8e93-609468d172ba" />
-  - **Figure 3:** CAD rendering of the mounting station's acrylic assembly, designed in FreeCAD. 
-- Obtain the acrylic-sheet parts by either:
-  - laser-cutting the acrylic sheets yourself, or
-  - ordering laser-cut parts from a service (e.g., Ponoko).
-- **Check acrylic thickness before cutting/ordering.** The SVG filenames indicate the required thickness:
+- You need to prepare:
+  - a. Acrylic fly holder.
+   <div align="center">
+    <img width="289" height="376" alt="Figure 2" src="https://github.com/user-attachments/assets/bc54cf4e-6676-4bef-9208-de54c92412dd" />
+    <p><strong>Figure 2:</strong> Acrylic fly mount, 1.5mm (1/16”) thickness.</p>
+    </div>
+    
+  - b. Acrylic assembly for the mounting station.
+    <div align="center">
+    <img width="502" height="386" alt="Figure 3" src="https://github.com/user-attachments/assets/654cf831-6301-422c-8e93-609468d172ba" />    
+    <p><strong>Figure 3:</strong> CAD rendering of the mounting station's acrylic assembly, designed in FreeCAD.</p>
+    </div>
+  
+- Obtain these acrylic-sheet parts by either:
+  - Laser-cutting the acrylic sheets yourself, or
+  - Ordering laser-cut parts from a service (e.g., Ponoko).
+- Check acrylic thickness before cutting/ordering. The SVG filenames indicate the required thickness:
   - **1.5 mm (1/16")**
   - **6 mm (1/4")**
-- **Cut paths only:** all paths in the SVG files are intended to be **cut**, not engraved.
+- Cut paths only: all paths in the SVG files are intended to be **cut**, not engraved.
 
 #### 1.3 Tap threads in the baseplate
 - Tap **M3 threads** into the baseplate holes used to mount the micromanipulator.
 
 #### 1.4 Prepare 3D-printed parts
 - Obtain the 3D-printed parts by either:
-  - printing them yourself, or
-  - ordering them from a service (e.g., Craftcloud).
+  - Printing them yourself, or
+  - Ordering them from a service (e.g., Craftcloud).
 - Recommended filament:
   - **PLA** (works well for most uses)
   - **ASA** (recommended if you need improved UV resistance)
 - Suggested print settings:
   - **0.2 mm layer height**
   - **No supports**
-- **Mini-V clamp:** insert **M3 nuts** into both slots.
+- Mini-V clamp: insert **M3 nuts** into both slots.
 
 ---
 
 ### 2 Assemble the acrylic frame
-- Assemble the main structure using the acrylic parts, following the render in **Figure 5**.
-- Fasten all acrylic joints with **cyanoacrylate adhesive** (super glue), as shown in **Figure 5**.
+- Assemble the main structure using the acrylic parts, following the render in **Figure 3**.
+- Fasten all acrylic joints with **cyanoacrylate adhesive** (super glue), as shown in **Figure 3**.
 
 #### Optional: add rubber feet
-For better grip between the baseplate and the table, attach **four rubber feet** under the baseplate—**one at each corner**.
+For a better grip between the baseplate and the table, attach **four rubber feet** under the baseplate—**one at each corner**.
 
 ---
 
 ### 3 Assemble the chiller
 
-#### 3.1 Build the W1209 temperature controller
-- Assemble the **W1209 temperature controller**.
+#### 3.1 W1209 temperature controller
+- Assemble the **W1209 temperature controller (PPL)**.
 - If your unit includes an acrylic housing, assemble the housing first.
 
 > **Wiring safety note**
