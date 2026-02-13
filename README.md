@@ -15,11 +15,11 @@
 ### Table of Contents
 - [1. Prepare all needed parts](#1-prepare-all-needed-parts)
 - [2. Assemble the acrylic frame](#2-assemble-the-acrylic-frame)
-- [3. Assemble the chiller](#3-assemble-the-chiller)
+- [3. Assemble the peltier cooler](#3-assemble-the-peltier-cooler)
 - [4. Mount the micromanipulator](#4-mount-the-micromanipulator)
 - [5. Install the thread adapter and Mini-V clamp](#5-install-the-thread-adapter-and-mini-v-clamp)
 - [6. Install the fly-holding rod and fly holder](#6-install-the-fly-holding-rod-and-fly-holder)
-- [7. Power on and set the chiller temperature](#7-power-on-and-set-the-chiller-temperature)
+- [7. Power on and set the cooler temperature](#7-power-on-and-set-the-cooler-temperature)
 - [8. Required parts list](#8-required-parts-list)
   
 ## Assembly Steps
@@ -78,11 +78,19 @@ For a better grip between the baseplate and the table, attach **four rubber feet
 
 ---
 
-### 3 Assemble the chiller
+### 3 Assemble the peltier cooler
 
-#### 3.1 W1209 temperature controller
+#### 3.1 W1209 temperature controller    
+-
+    
+    <div align="center">
+    <img width="427" height="324" alt="Figure 4" src="https://github.com/user-attachments/assets/b2e88dd5-8a3c-4954-9d1b-c1876fc7057d" />   
+    <p><strong>Figure 4:</strong> HiLetgo 2pcs W1209 with Case 12V DC Digital Temperature Controller.</p>
+    </div>
+    
 - Assemble the **W1209 temperature controller (PPL)**.
 - If your unit includes an acrylic housing, assemble the housing first.
+
 
 > **Wiring safety note**
 >
@@ -91,13 +99,19 @@ For a better grip between the baseplate and the table, attach **four rubber feet
 > - solder + heat-shrink, or
 > - proper connectors (e.g., crimp connectors or WAGO lever nuts).
 
-#### 3.2 Wire the temperature controller (recommended order)
+#### 3.2 Wire the temperature controller to the peltier cooler
 Prepare:
 - one **3" red wire** (cut + strip ends)
 - one **10" black wire** (cut + strip ends)
 - **12 V power supply**
 - **female barrel connector**
 - **rocker switch**
+- **Peltier cooloer**
+    
+    <div align="center">
+    <img width="594" height="524" alt="Figure 5" src="https://github.com/user-attachments/assets/72fd8c6e-80af-446d-b5d6-6fce8eef7f7b" />
+    <p><strong>Figure 5:</strong> Thermoelectric, Peltier Assemblies.</p>
+    </div>
 
 Wire as follows:
 a. Use the **3" red wire** to connect terminals **K1 → 12V** on the W1209.
@@ -106,24 +120,29 @@ c. Connect the other end of the **10" black wire** to the **negative (−)** ter
 d. Connect the **black wire** of the **rocker switch** to **12V** on the W1209.
 e. Connect the **red wire** of the **rocker switch** to the **positive (+)** terminal of the **female barrel connector**.
 
-**Chiller load wiring (Peltier + fan assembly):**
+**Cooler load wiring (Peltier + fan assembly):**
 - **Red wires → K0**
 - **Black wires → GND**
 
-You can wire the chiller load either **now** or **after** mounting the chiller to the acrylic structure.
+You can wire the cooler load either **now** or **after** mounting the cooler to the acrylic structure.
 
 #### 3.3 Prepare and mount the aluminum T-bar
 a. Cut a **40 mm** section of the **aluminum T-bar** (a bandsaw works well).
-b. Apply **thermal paste** to the bottom face of the T-bar (orientation as in **Figure 1A**).
+b. Apply **thermal paste** to the bottom face of the T-bar (orientation as in **Figure 1**).
 c. Place the **NTC temperature probe** so it touches **both**:
    - the rim of the T-bar, and
    - the cold plate  
    Add thermal paste to thermally couple the probe to both surfaces.
-d. Secure the T-bar using **thermal tape** (use **4 × 10 mm** strips) as shown in **Figure 1A**.
+d. Secure the T-bar using **thermal tape** (use **4 × 10 mm** strips) as shown in **Figure 6**.
    - You do **not** need to remove the blue liner from the tape after applying it.
+    <div align="center">
+    <img width="326" height="298" alt="Figure 6" src="https://github.com/user-attachments/assets/d23799b7-c8d8-45b2-90df-6483a031fd68" />
+    <p><strong>Figure 6:</strong> The aluminum T-bar on the cooler</p>
+    </div>
+  
 
-#### 3.4 Seat the chiller on the acrylic frame
-- Place the chiller into its seat as shown in **Figure 1A**.
+#### 3.4 Seat the cooler on the acrylic frame
+- Place the cooler into its seat as shown in **Figure 1**.
 - Optionally use **cyanoacrylate adhesive** (super glue) for additional fastening.
 
 ---
@@ -145,7 +164,7 @@ c. Attach the **Mini-V clamp** above the thread adapter.
 
 #### Notes by clamp version
 
-**3D-printed version (shown in Figure 1A)**
+**3D-printed version (shown in Figure 1)**
 - The “thread adapter” is an **M3 × 36** threaded rod.
   - We made this by cutting an **M3 × 40** screw down to **36 mm** using a rotary tool + cutoff wheel (other methods are fine).
 - Fasten the rod by:
@@ -168,7 +187,7 @@ d. Use the small hole at one end of the fly-holding rod for the fly holder faste
 
 ---
 
-### 7 Power on and set the chiller temperature
+### 7 Power on and set the cooler temperature
 
 a. Plug the **12 V power supply** into the **female barrel connector**.
 b. Turn on the **rocker switch** when you are ready to cool.
