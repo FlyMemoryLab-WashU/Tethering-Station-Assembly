@@ -1,6 +1,7 @@
 # Instructions for building the inexpensive tethering station
 ![Figure 1](Figure 1.png)
 ---
+<img width="483" height="445" alt="Figure 1" src="https://github.com/user-attachments/assets/d91770e0-0f53-46a8-992f-4401d05d4d97" />
 
 ### Table of Contents
 - [1. Prepare all needed parts](#1-prepare-all-needed-parts)
