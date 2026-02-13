@@ -1,7 +1,7 @@
 # Instructions for building the inexpensive tethering station
 ---
 <img width="483" height="445" alt="Figure 1" src="https://github.com/user-attachments/assets/d91770e0-0f53-46a8-992f-4401d05d4d97" />
-Figure 1: Fly tethering station.
+- **Figure 1**: Fly tethering station.
 ### Table of Contents
 - [1. Prepare all needed parts](#1-prepare-all-needed-parts)
 - [2. Assemble the acrylic frame](#2-assemble-the-acrylic-frame)
@@ -23,11 +23,11 @@ Figure 1: Fly tethering station.
 #### 1.2 Prepare custom acrylic parts
 - We need to prepare for:
   - Acrylic fly holder.
-<img width="289" height="376" alt="Figure 2" src="https://github.com/user-attachments/assets/bc54cf4e-6676-4bef-9208-de54c92412dd" />
-  Figure 2: Acrylic fly mount, 1.5mm (1/16”) thickness.
+  <img width="289" height="376" alt="Figure 2" src="https://github.com/user-attachments/assets/bc54cf4e-6676-4bef-9208-de54c92412dd" />
+  - **Figure 2:** Acrylic fly mount, 1.5mm (1/16”) thickness.
   - Acrylic assembly for the mounting station.
-<img width="1004" height="773" alt="Figure 3" src="https://github.com/user-attachments/assets/654cf831-6301-422c-8e93-609468d172ba" />
-  Figure 3: CAD rendering of the mounting station's acrylic assembly, designed in FreeCAD. 
+  <img width="1004" height="773" alt="Figure 3" src="https://github.com/user-attachments/assets/654cf831-6301-422c-8e93-609468d172ba" />
+  - **Figure 3:** CAD rendering of the mounting station's acrylic assembly, designed in FreeCAD. 
 - Obtain the acrylic-sheet parts by either:
   - laser-cutting the acrylic sheets yourself, or
   - ordering laser-cut parts from a service (e.g., Ponoko).
