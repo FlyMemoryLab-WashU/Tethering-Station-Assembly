@@ -106,9 +106,7 @@ Prepare:
 - **12 V power supply**
 - **female barrel connector**
 - **rocker switch**
-- **Peltier cooloer**
-
-    
+- **Peltier cooloer**    
     <div align="center">
     <img width="594" height="524" alt="Figure 5" src="https://github.com/user-attachments/assets/72fd8c6e-80af-446d-b5d6-6fce8eef7f7b" />
     <p><strong>Figure 5:</strong> Thermoelectric, Peltier Assemblies.</p>
@@ -135,6 +133,7 @@ c. Place the **NTC temperature probe** so it touches **both**:
    - the cold plate  
    Add thermal paste to thermally couple the probe to both surfaces.
 d. Secure the T-bar using **thermal tape** (use **4 × 10 mm** strips) as shown in **Figure 6**.
+   
    - You do **not** need to remove the blue liner from the tape after applying it.
     <div align="center">
     <img width="326" height="298" alt="Figure 6" src="https://github.com/user-attachments/assets/d23799b7-c8d8-45b2-90df-6483a031fd68" />
