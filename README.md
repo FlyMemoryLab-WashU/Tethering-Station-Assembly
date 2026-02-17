@@ -82,6 +82,8 @@ For a better grip between the baseplate and the table, attach **four rubber feet
 
 #### 3.1 W1209 temperature controller    
 -
+    <img width="845" height="648" alt="Figure 4" src="https://github.com/user-attachments/assets/20230b24-688f-4d85-9a82-9ecdbed9ee25" />
+
     
     <div align="center">
     <img width="427" height="324" alt="Figure 4" src="https://github.com/user-attachments/assets/b2e88dd5-8a3c-4954-9d1b-c1876fc7057d" />   
