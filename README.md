@@ -107,6 +107,7 @@ Prepare:
 - **female barrel connector**
 - **rocker switch**
 - **Peltier cooloer**
+
     
     <div align="center">
     <img width="594" height="524" alt="Figure 5" src="https://github.com/user-attachments/assets/72fd8c6e-80af-446d-b5d6-6fce8eef7f7b" />
