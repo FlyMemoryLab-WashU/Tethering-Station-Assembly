@@ -81,9 +81,7 @@ For a better grip between the baseplate and the table, attach **four rubber feet
 ### 3 Assemble the peltier cooler
 
 #### 3.1 W1209 temperature controller    
--
-   
-    <div align="center">
+-   <div align="center">
     <img width="427" height="324" alt="Figure 4" src="https://github.com/user-attachments/assets/b2e88dd5-8a3c-4954-9d1b-c1876fc7057d" />   
     <p><strong>Figure 4:</strong> HiLetgo 2pcs W1209 with Case 12V DC Digital Temperature Controller.</p>
     </div>
