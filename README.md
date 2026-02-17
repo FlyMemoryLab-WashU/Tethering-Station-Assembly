@@ -134,7 +134,9 @@ d. Secure the T-bar using **thermal tape** (use **4 × 10 mm** strips) as shown 
    
    - You do **not** need to remove the blue liner from the tape after applying it.
    
-    <div align="center">
+   
+    
+<div align="center">
     <img width="326" height="298" alt="Figure 6" src="https://github.com/user-attachments/assets/d23799b7-c8d8-45b2-90df-6483a031fd68" />
     <p><strong>Figure 6:</strong> The aluminum T-bar on the cooler</p>
     </div>
