@@ -124,7 +124,7 @@ e. Connect the **red wire** of the **rocker switch** to the **positive (+)** ter
 You can wire the cooler load either **now** or **after** mounting the cooler to the acrylic structure.
 
 #### 3.3 Prepare and mount the aluminum T-bar
-a. Cut a **40 mm** section of the **aluminum T-bar** (a bandsaw works well).
+a. Cut a **40-mm-length** piece of the **aluminum T-bar** (a bandsaw works well).
 b. Apply **thermal paste** to the bottom face of the T-bar (orientation as in **Figure 1**).
 c. Place the **NTC temperature probe** so it touches **both**:
    - the rim of the T-bar, and
@@ -198,9 +198,9 @@ b. Turn on the **rocker switch** when you are ready to cool.
 - Using an IR camera, we found that setting the controller to **+10 °C** produced the desired cold-plate temperature (~0 °C).
 
 #### How to set the temperature on the W1209
-a. **Click** (do not long-press) the **SET** button until the display flashes.
+a. **Click** (do not long-press) the **SET** button, which will make the display flash.
 b. Use **+** and **−** to adjust the set temperature.
-c. Wait briefly for the value to be accepted (flashing stops).
+c. Click the SET button again to set the displayed temperature.
 
 
 ## 8 Required parts list
@@ -242,7 +242,7 @@ c. Wait briefly for the value to be accepted (flashing stops).
 
 | Name | Quantity | Description | Notes | Link |
 |------|----------|-------------|-------|------|
-| Thumb Screw | 1 | #8-32 hex head thumb screw, hex drive, nylon | Listed as provided; adjust if you prefer a true metric thumb screw | [DigiKey](https://www.digikey.com/short/10z84wm7) |
+| Thumb Screw | 1 | #8-32 hex head thumb screw, hex drive, nylon | | [DigiKey](https://www.digikey.com/short/10z84wm7) |
 | Thread Adapter | 1 | Male hex thread adapter, M3 × 0.5 to M4 × 0.7 | | [McMaster](https://www.mcmaster.com/93047A106/) |
 | Clamp | 1 | VH1/M - Miniature V-Clamp, 0.42" long, M4 tapped | | [Thorlabs](https://www.thorlabs.com/thorproduct.cfm?partnumber=VH1/M) |
 | M3 Standoff Kit | 1 | M3 standoff assortment kit | Optional height tuning | [Amazon](https://a.co/d/eljB6fC) |
