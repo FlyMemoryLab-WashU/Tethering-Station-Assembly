@@ -51,8 +51,8 @@
   - **1.5 mm (1/16")**
   - **6 mm (1/4")**
 - Cut paths only: all paths in the SVG files are intended to be **cut**, not engraved.
-  - Fly holder
-  - Tethering station
+  - [Download fly holder SVG files](Fly_holder_1point5mm)
+  - [Download tethering station SVG files](Tethering-Station-v3.2)
       
 #### 1.3 Tap threads in the baseplate
 - Tap **M3 threads** into the baseplate holes used to mount the micromanipulator.
