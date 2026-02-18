@@ -38,10 +38,10 @@
     <p><strong>Figure 2:</strong> Acrylic fly mount, 1.5mm (1/16”) thickness.</p>
     </div>
     
-  - b. Acrylic assembly for the mounting station.
+  - b. Acrylic assembly for the tethering station.
     <div align="center">
     <img width="502" height="386" alt="Figure 3" src="https://github.com/user-attachments/assets/654cf831-6301-422c-8e93-609468d172ba" />    
-    <p><strong>Figure 3:</strong> CAD rendering of the mounting station's acrylic assembly, designed in FreeCAD.</p>
+    <p><strong>Figure 3:</strong> CAD rendering of the tethering station's acrylic assembly, designed in FreeCAD.</p>
     </div>
   
 - Obtain these acrylic-sheet parts by either:
@@ -51,7 +51,9 @@
   - **1.5 mm (1/16")**
   - **6 mm (1/4")**
 - Cut paths only: all paths in the SVG files are intended to be **cut**, not engraved.
-
+  - Fly holder
+  - Tethering station
+      
 #### 1.3 Tap threads in the baseplate
 - Tap **M3 threads** into the baseplate holes used to mount the micromanipulator.
 
